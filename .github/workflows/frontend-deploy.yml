@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: 
-          cd card
+          cd card &&
           npm install
 
       - name: Build frontend
