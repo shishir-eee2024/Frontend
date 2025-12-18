@@ -21,12 +21,12 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: |
+        run: 
           cd card
           npm install
 
       - name: Build frontend
-        run: |
+        run: 
           cd card
           npm run build
 
@@ -38,5 +38,5 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Sync frontend to S3
-        run: |
+        run: 
           aws s3 sync card/dist s3://${{ secrets.AWS_S3_BUCKET }} --delete
