@@ -34,7 +34,7 @@ function HomePage() {
         },
         { 
             title: '💰 Best Price Guarantee', 
-            desc: 'Found it cheaper elsewhere? We\'ll match the price.',
+            desc: 'Found it cheaper elsewhere? We will match the price.',
             icon: '💰'
         }
     ];
