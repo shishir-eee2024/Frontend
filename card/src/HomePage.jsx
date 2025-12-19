@@ -69,7 +69,7 @@ function HomePage() {
             <section className="features-section">
                 <div className="section-header">
                     <h2 className="section-title">Why Choose BazarNepal</h2>
-                    <p className="section-subtitle">Experience the best in online shopping</p>
+                    <p className="section-subtitle">Experience the best in online shopping Here</p>
                 </div>
                 <div className="features-grid">
                     {features.map((feature, index) => (
